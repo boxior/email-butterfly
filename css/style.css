@@ -1,0 +1,89 @@
+html {
+  display: block;
+  font-family: Verdana, sans-serif;
+}
+
+head {display: none;}
+title {display: none;}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+div {
+  display: block;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+table[Attributes Style] {
+  width: 100%;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td[Attributes Style] {
+  text-align: -webkit-left;
+}
+
+td, th {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+table[Attributes Style] {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+
+tbody[Attribute Style] {
+  vertical-align: top;
+}
+
+ul li {
+  float: left;
+  margin-left: 15px;
+  list-style-type: none;
+}
+a {
+  color: #46b4da;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: auto;
+  text-decoration: underline;
+}
+
+p, pre {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
