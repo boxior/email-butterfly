@@ -1,2 +1,2 @@
 # mail
-https://boxior.github.io/mail-first
+https://boxior.github.io/email-butterfly/
